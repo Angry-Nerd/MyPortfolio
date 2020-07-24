@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box !important;
+    font-family: Helvetica, sans-serif !important;
+}
+
+.navbar {
+    background-color: #f3f3f3 !important;
+}
+.nav-item a{
+    font-size: 14px;
+    color: black !important;
+}
+.navbar-brand {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.nav-item.active a{
+    color: blueviolet !important;
+    font-weight: bold;
+}
+.banner {
+    height: 100vh;
+    background: #f3f3f3 !important;
+}
+.banner-container {
+    height: 100vh
+    
+}
+.left-translate {
+    transform: translateX(-100%);
+}
+.down-translate {
+    transform: translateY(100%);
+}
+.right-translate {
+    transform: translateX(100%);
+}
+
+.banner-content {
+    margin: 3vh auto;
+    width: 80%;
+    height: 90%;
+    overflow: hidden;
+    position: relative;
+    /* background: red; */
+}
+#fsvs-pagination {
+    display: none;
+}
+.primary-headline {
+    font-size: 5rem;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 8rem;
+    letter-spacing: 14px;
+    text-shadow: 0 5px 15px rgba(2, 11, 22, 0.2);
+}
+.secondary-headline {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+.banner-text {
+    color: black;
+    position: absolute;
+    bottom: 30%;
+}
+.portfolio-container {
+    position: absolute;
+    bottom: 55%;
+    right: -2%;
+}
+.portfolio-text {
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: #ff4d5a;
+    font-weight: 900;
+    text-shadow: 0 10px 15px rgba(2, 11, 22, 0.2);
+}
+
+.my-slide {
+    height: 100vh;
+}
+.my-slide .container {
+    margin-top: 80px;
+}
+.education-left-container {
+    overflow: hidden;
+}
+.education-heading, .skills-heading {
+    font-size: 48px;
+    color: rgb(89, 150, 150);
+    margin-bottom: 60px;
+}
+
+.education-tile {
+    /* padding: 20px; */
+    margin-top: 20px;
+    border-radius: 8px;
+    /* box-shadow: 1px 16px 30px -10px rgba(2, 11, 22, 0.2); */
+}
+.education-title {
+    color: rgb(89, 150, 150);
+    font-size: 20px;
+    font-weight: bold;
+}
+.education-institution {
+    font-size: 24px;
+}
+.education-duration {
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(89, 150, 150);;
+}
+
+@keyframes slide-left {
+    100% {
+        transform: translateX(0%);
+    }
+}
+@keyframes slide-right {
+    100% {
+        transform: translateX(0%);
+    }
+}
+@keyframes slide-up {
+    100% {
+        transform: translateY(0);
+    }
+}
